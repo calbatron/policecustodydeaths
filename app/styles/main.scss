@@ -1,0 +1,16 @@
+@import 'bootstrap';
+@import 'nav';
+@import 'list';
+
+
+.header {
+    font-size: 24px;
+    margin: 24px 0;
+}
+
+input.filter {
+    height:50px;
+    line-height: 40px;
+    font-size: 30px;
+    margin:24px 0;
+}

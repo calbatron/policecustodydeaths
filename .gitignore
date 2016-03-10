@@ -25,6 +25,10 @@ build/Release
 
 # Dependency directory
 node_modules
+bower_components
+.sass-cache
+.tmp
+
 
 # Optional npm cache directory
 .npm

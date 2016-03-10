@@ -1,0 +1,45 @@
+.list {
+    .link {
+        cursor: pointer;
+    }
+
+    .row {
+        margin: 24px 0;
+    }
+
+    img.profile-large {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        border-radius: 1000px;
+    }
+
+    h2.name {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    h3.date {
+        font-size: 17px;
+        text-align: right;
+    }
+
+    .cod {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .verdict {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .about {
+        font-size: 15px;
+        margin-top: 12px;
+    }
+
+    .block {
+        margin-bottom: 12px;
+    }
+}

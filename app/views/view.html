@@ -1,0 +1,38 @@
+<div class="container list">
+    <div class="row">
+        <div class="visible-xs">
+            <h2 class="col-xs-12">{{list.name}}</h2>
+            <img class="col-xs-12 profile-small" ng-src="images/{{list.image}}">
+            <div class="col-xs-9 cod">Cause of death: {{list.causeOfDeathShort}}</div>
+            <h3 class="col-xs-3 date">{{list.date}}</h3>
+            <div class="col-xs-12 verdict">Verdict: {{list.verdict}}</div>
+            <div class="col-xs-12 block about">{{list.about}}</div>
+            <div class="col-xs-12 block ipcc"><b>IPCC Comments:</b> {{list.ipcc}}</div>
+            <div class="col-xs-12 block family"><b>Family Comments:</b> {{list.family}}</div>
+            <div class="col-xs-12 block media"><b>Media</b>
+                <div ng-repeat="link in list.media">
+                    <a ng-href='http://www.apple.com'>{{link.agency}} - {{link.date}} : {{link.title}}</a>
+                </div>
+            </div>
+        </div>
+        <div class="hidden-xs">
+            <div class="col-sm-3">
+                <img class="profile-large" ng-src="images/{{list.image}}">
+            </div>
+            <div class="col-sm-9">
+                <h2 class="col-sm-9 name">{{list.name}}</h2>
+                <h3 class="col-sm-3 date">{{list.date}}</h3>
+                <div class="col-sm-12 cod">Cause of death: {{list.causeOfDeathShort}}</div>
+                <div class="col-sm-12 verdict">Verdict: {{list.verdict}}</div>
+                <div class="col-sm-12 block about">{{list.about}}</div>
+                <div class="col-sm-12 block ipcc"><b>IPCC Comments:</b> {{list.ipcc}}</div>
+                <div class="col-sm-12 block family"><b>Family Comments:</b> {{list.family}}</div>
+                <div class="col-sm-12 block media"><b>Media</b>
+                    <div ng-repeat="link in list.media">
+                        <a ng-href='http://www.apple.com'>{{link.agency}} - {{link.date}} : {{link.title}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
