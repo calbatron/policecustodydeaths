@@ -7,9 +7,7 @@
 Install Node
 https://nodejs.org/dist/v4.4.0/node-v4.4.0.pkg
 
-Install Compass
-
-To run, in the Terminal
+Install Compass from the Terminal
 
 gem update --system
 
